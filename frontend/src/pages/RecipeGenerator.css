@@ -1,0 +1,50 @@
+/* Global layout for the recipe section */
+
+.recipeSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    margin: 0 15px;
+}
+
+.p-card-title {
+   color : #000;
+}
+
+/* Styling for the ingredients input field */
+#ingredients, #preferences {
+    margin: 10px 0;
+    width: 100%;
+    color: #000;
+}
+
+/* Styling for the Generate Recipe button */
+.btn {
+    margin-top: 20px;
+}
+
+/* Styling for the recipe card container */
+.recipe-container {
+    margin-top: 30px;
+    padding: 15px;
+}
+
+/* Loading spinner container */
+.loadingSpinner {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .recipeSection {
+        padding-top: 20px;
+        margin: 0 10px;
+    }
+
+    .recipe-container {
+        width: 100%;
+    }
+}
